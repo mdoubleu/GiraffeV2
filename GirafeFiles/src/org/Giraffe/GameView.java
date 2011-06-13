@@ -2,6 +2,7 @@ package org.Giraffe;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,6 +15,7 @@ import android.text.format.Time;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
@@ -148,8 +150,19 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback{
 			 }
 		}
 	}
- 
-	
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+	if (event.getAction()== MotionEvent.ACTION_DOWN)
+	{
+		try {
+			jump(G_y1, G_y2);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+	}
+	return false;
+	}	
 public boolean onKeyUp(int keyCode, KeyEvent msg) {
 	    if(keyCode==KeyEvent.KEYCODE_DPAD_UP){
 	    	try {

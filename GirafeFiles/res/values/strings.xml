@@ -2,15 +2,15 @@
 <resources>
 
     <string name="hello">Hello World, Giraffe!</string>
-    <string name="app_name"></string>
-    
+    <string name="app_name">Giraffe Adventure!!!!!!</string>
+    <string name="nothing"></string>
     <string name= "play_label">Play</string>
     <string name= "level_select_label">Level Select</string>
     <string name= "how_to_play_label">How to Play</string>
     <string name= "about_label">About</string>
     <string name= "settings_label">Settings</string>
     <string name="main_title"> Giraffe Adventure</string>
-    <string name="about_title">About Android Sudoku</string>
+    <string name="about_title">About Giraffe Adventure</string>
     <string name="HTP_title">How to Play</string>
 	<string name="about_text">\
 	Jeremy Croll. 

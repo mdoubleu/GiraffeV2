@@ -27,12 +27,13 @@ public class GameCall extends Activity implements OnClickListener{
         theGame=(GameView) findViewById(R.id.game1);
         gameThread=theGame.getThread();
         
-    //View playButton=findViewById(R.id.play_button);
-    //playButton.setOnClickListener(this);
 
     }
-    public void onClick(View v) {
+   
 
+	@Override
+	public void onClick(View V) {
+		// TODO Auto-generated method stub
+		
 	}
-
 }
