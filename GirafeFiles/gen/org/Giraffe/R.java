@@ -18,10 +18,11 @@ public final class R {
         public static final int a2=0x7f020001;
         public static final int a3=0x7f020002;
         public static final int background=0x7f020003;
-        public static final int giraffe=0x7f020004;
-        public static final int giraffe2=0x7f020005;
-        public static final int giraffex=0x7f020006;
-        public static final int icon=0x7f020007;
+        public static final int box=0x7f020004;
+        public static final int giraffe=0x7f020005;
+        public static final int giraffe2=0x7f020006;
+        public static final int giraffex=0x7f020007;
+        public static final int icon=0x7f020008;
     }
     public static final class id {
         public static final int about_button=0x7f060008;
